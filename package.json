@@ -1,0 +1,32 @@
+{
+  "name": "lokta-css",
+  "version": "0.1.0",
+  "description": "Lokta editorial UI: design tokens (four paper stocks) and component CSS, self-hosted fonts, WCAG 2.2 AA.",
+  "license": "MIT",
+  "main": "lokta.css",
+  "style": "lokta.css",
+  "exports": {
+    ".": "./lokta.css",
+    "./tokens": "./lokta.tokens.css",
+    "./base": "./lokta-base.css",
+    "./components": "./lokta-components.css",
+    "./fonts": "./fonts.css",
+    "./*": "./*"
+  },
+  "files": [
+    "lokta.css",
+    "lokta.tokens.css",
+    "lokta.paper.css",
+    "lokta.ink.css",
+    "lokta.bone.css",
+    "lokta.indigo.css",
+    "lokta-base.css",
+    "lokta-components.css",
+    "fonts.css",
+    "fonts"
+  ],
+  "keywords": ["css", "design-system", "design-tokens", "editorial", "lokta", "accessibility", "wcag", "dark-mode"],
+  "author": "Adam Munawar Rahman",
+  "repository": { "type": "git", "url": "git+https://github.com/msradam/lokta-css.git" },
+  "homepage": "https://github.com/msradam/lokta-css#readme"
+}

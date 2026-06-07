@@ -1,0 +1,10 @@
+/* lokta-css drop-in. Tokens (all four stocks), fonts, base layer, and components
+   in one import. Default stock is paper; switch with data-theme on <html>.
+
+     @import "lokta-css/lokta.css";
+
+   Then: <html data-theme="ink"> ... <body class="lk"> */
+@import "./lokta.tokens.css";
+@import "./fonts.css";
+@import "./lokta-base.css";
+@import "./lokta-components.css";

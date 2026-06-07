@@ -1,0 +1,88 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root, [data-theme="paper"] {
+  --paper-00: #faf8ea; /** deckle, top sheet */
+  --paper-01: #f4f1df; /** page, primary surface */
+  --paper-02: #eae6d2; /** page shadow, sidebar */
+  --paper-03: #dbd3bb; /** inset, table stripe */
+  --paper-04: #c2b89c; /** divider, plate edge */
+  --ink-20: #b8b0a1; /** 1.9:1, hairlines/fills only, never text */
+  --ink-40: #8e867a; /** 3.1:1, borders/large/disabled only */
+  --ink-50: #6e665a; /** 4.9:1, muted text (AA) */
+  --ink-60: #5c564b; /** 6.3:1, secondary (AA) */
+  --ink-80: #2a2620; /** 13.1:1, body */
+  --ink-90: #1f1c13; /** 13.9:1, headlines */
+  --ink-100: #16140e; /** 14.8:1 on paper-01 */
+  --pigment-aubergine: #6b4e8e;
+  --pigment-marigold: #fbbc0e; /** hero feature ground, requires dark text */
+  --pigment-peach: #e7a079; /** heritage salmon (Kabir cookbook), dark text */
+  --pigment-lavender: #a99cb3; /** cover / brand tone, dark text */
+  --pigment-night: #070d0e; /** dramatic section-opener ground */
+  --pigment-cinnabar: #c23a26;
+  --pigment-celadon: #6e8b6f;
+  --pigment-indigo: #2e3e5c;
+  --pigment-celadon-ink: #4f6b50; /** 5.2:1, success text on paper */
+  --pigment-cinnabar-ink: #c23a26; /** 4.7:1, danger text on paper */
+  --pigment-aubergine-ink: #6b4e8e; /** 4.6:1, feature text on paper */
+  --dark-accent-success: #8fb088; /** 6.7:1 on ink page */
+  --dark-accent-danger: #e2654f; /** 4.8:1 on ink page */
+  --dark-accent-feature: #a98fc9; /** 7.5:1 on ink page */
+  --type-xs: 11px;
+  --type-sm: 13px;
+  --type-base: 15px;
+  --type-md: 18px;
+  --type-lg: 24px;
+  --type-xl: 32px;
+  --type-2xl: 48px;
+  --type-3xl: 72px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --rule-1: 1px;
+  --rule-2: 2px;
+  --rule-3: 4px;
+  --rule-hairline: 0.5px;
+  --target-min: 24px; /** WCAG 2.5.8 pointer minimum */
+  --target-touch: 44px; /** comfortable touch */
+  --font-family-display: Archivo; /** free, Figma-native, Helvetica Neue substitute */
+  --font-family-mono: 'Spline Sans Mono';
+  --font-family-serif: 'Source Serif 4';
+  --font-family-cjk: 'Noto Sans JP';
+  --focus-offset: 2px;
+  --surface-page: var(--paper-01);
+  --surface-raised: var(--paper-00);
+  --surface-sunken: var(--paper-02);
+  --surface-inset: var(--paper-03);
+  --surface-inverse: var(--ink-90);
+  --text-primary: var(--ink-90);
+  --text-body: var(--ink-80);
+  --text-secondary: var(--ink-60);
+  --text-muted: var(--ink-50);
+  --text-disabled: var(--ink-40);
+  --text-on-fill: var(--paper-00);
+  --text-on-marigold: var(--ink-90);
+  --border-strong: var(--ink-80);
+  --border-default: var(--ink-40);
+  --border-hairline: var(--ink-20);
+  --accent-success: var(--pigment-celadon-ink);
+  --accent-success-fill: var(--pigment-celadon);
+  --accent-danger: var(--pigment-cinnabar-ink);
+  --accent-danger-fill: var(--pigment-cinnabar);
+  --accent-feature: var(--pigment-aubergine-ink);
+  --accent-feature-fill: var(--pigment-aubergine);
+  --accent-warning-fill: var(--pigment-marigold);
+  --accent-info-fill: var(--pigment-indigo);
+  --field-bg: var(--paper-00);
+  --field-border: var(--ink-80);
+  --field-placeholder: var(--ink-50);
+  --focus-ring: var(--ink-100);
+  --focus-width: var(--rule-2);
+}
