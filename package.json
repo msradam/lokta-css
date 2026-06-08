@@ -28,7 +28,8 @@
     "lokta-behaviors.js",
     "lokta-icons.css",
     "icons",
-    "lokta-behaviors.d.ts"
+    "lokta-behaviors.d.ts",
+    "lokta-utilities.css"
   ],
   "keywords": [
     "css",
