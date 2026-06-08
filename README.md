@@ -77,6 +77,10 @@ Load only what you need:
 | Bone | `bone` | cool near-white |
 | Indigo | `indigo` | cool dark |
 
+`lokta.css` also ships extra stocks via `lokta-stocks.css`: `pine`, `mulberry`,
+and the enterprise set `slate`, `steel`, `onyx`, each with a `-light` variant
+(e.g. `slate-light`). All are AA-validated by the verifier.
+
 ## Components
 
 `lk-btn` (and `-primary`, `-lg`), `lk-tag` (`-filled`, `-pigment`), `lk-input` /
