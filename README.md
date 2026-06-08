@@ -90,6 +90,16 @@ and the enterprise set `slate`, `steel`, `onyx`, each with a `-light` variant
 `lk-table`, `lk-modal`, the editorial marks (`lk-rule`, `lk-measure`, `lk-endmark`),
 and the page furniture (`lk-running-head`, `lk-colophon`, `lk-folio`).
 
+## Behaviors
+
+The interactive components (tabs, accordion, dialog, tooltip, menu, sortable
+table) need ARIA and keyboard wiring. Load `lokta-behaviors.js` once; it
+self-wires on load, every hook is guarded, and it makes no network calls.
+
+```html
+<script src="lokta-behaviors.js" defer></script>
+```
+
 ## Brand customisation
 
 Apps may override the brand layer. Everything else (type scale, 8px grid, AA
