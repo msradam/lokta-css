@@ -24,7 +24,8 @@
     "lokta-components.css",
     "lokta-stocks.css",
     "fonts.css",
-    "fonts"
+    "fonts",
+    "lokta-behaviors.js"
   ],
   "keywords": [
     "css",
