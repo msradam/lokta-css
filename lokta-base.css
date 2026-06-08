@@ -48,6 +48,46 @@
   --lk-accent: var(--accent-feature-ground, var(--pigment-marigold));
   --lk-radius: 0px;
   --lk-density-step: 0px;
+
+  /* Heritage pigments, the manuscript-fusion palette (Pala dye tones, conch,
+     and the one afsani gilt). Available as Accent dial options; the -light
+     variants carry accent text on the dark stocks. Each is AA on light
+     surfaces (gilt is a flat fill only, not text). */
+  --pigment-madder: #8E3B30;
+  --pigment-walnut: #4E3B29;
+  --pigment-turmeric: #7A5A12;
+  --pigment-lac: #9B2D4D;
+  --pigment-malachite: #3F6B4E;
+  --pigment-conch: #F7F4E9;
+  --pigment-afsani-gilt: #B08D3C;
+  --pigment-madder-light: #DE9684;
+  --pigment-walnut-light: #C9A982;
+  --pigment-turmeric-light: #E0B452;
+  --pigment-lac-light: #D98098;
+  --pigment-malachite-light: #7FB08C;
+
+  /* VOICE dial. Named typeface options per role as multilingual stacks: the
+     Latin face first, then the script fallbacks (Mukta for Devanagari, Anek
+     Bangla for Bengali, Noto JP for CJK). Script is resolved by content
+     language via :lang() below, never a user dial. */
+  --font-family-display: "Archivo", "Mukta", "Anek Bangla", "Noto Sans JP", system-ui, sans-serif;
+  --font-family-mono: "Spline Sans Mono", ui-monospace, monospace;
+  --font-family-serif: "Source Serif 4", "Martel", "Noto Serif Bengali", Georgia, serif;
+  --font-family-cjk: "Noto Sans JP", sans-serif;
+  --font-family-bengali: "Anek Bangla", "Noto Sans Bengali", sans-serif;
+  --font-family-devanagari: "Mukta", "Noto Sans Devanagari", sans-serif;
+  --voice-weight-display: 800;
+  --voice-tracking-display: -0.04em;
+}
+
+/* Script selection is automatic by content language, not a dial. */
+:lang(ne), :lang(hi), :lang(sa), :lang(mr) {
+  --font-family-display: "Mukta", "Archivo", sans-serif;
+  --font-family-serif: "Martel", "Source Serif 4", serif;
+}
+:lang(bn) {
+  --font-family-display: "Anek Bangla", "Archivo", sans-serif;
+  --font-family-serif: "Noto Serif Bengali", "Source Serif 4", serif;
 }
 
 /* Density. Compact tightens control heights and gutters by one step. */
@@ -55,9 +95,18 @@
   --lk-density-step: 4px;
 }
 
-/* Grain off. Disables the paper grain texture on .lk-sheet. */
+/* Grain dial: off | subtle (default) | fibrous. Off removes the texture;
+   fibrous swaps the subtle dots for directional lokta fibre, the namesake
+   material. Texture only, never depth. */
 [data-grain="off"] .lk-sheet::before {
   display: none;
+}
+[data-grain="fibrous"] .lk-sheet::before {
+  background-image:
+    repeating-linear-gradient(91deg, rgba(22, 20, 14, 0.05) 0, rgba(22, 20, 14, 0.05) 0.6px, transparent 0.6px, transparent 2.5px),
+    repeating-linear-gradient(88.5deg, rgba(22, 20, 14, 0.035) 0, rgba(22, 20, 14, 0.035) 0.5px, transparent 0.5px, transparent 6px);
+  background-size: auto;
+  opacity: 0.9;
 }
 
 /* Forced colors (Windows High Contrast). Keep keylines and focus visible by
