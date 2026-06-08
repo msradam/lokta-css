@@ -22,11 +22,24 @@
     "lokta.indigo.css",
     "lokta-base.css",
     "lokta-components.css",
+    "lokta-stocks.css",
     "fonts.css",
     "fonts"
   ],
-  "keywords": ["css", "design-system", "design-tokens", "editorial", "lokta", "accessibility", "wcag", "dark-mode"],
+  "keywords": [
+    "css",
+    "design-system",
+    "design-tokens",
+    "editorial",
+    "lokta",
+    "accessibility",
+    "wcag",
+    "dark-mode"
+  ],
   "author": "Adam Munawar Rahman",
-  "repository": { "type": "git", "url": "git+https://github.com/msradam/lokta-css.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msradam/lokta-css.git"
+  },
   "homepage": "https://github.com/msradam/lokta-css#readme"
 }
