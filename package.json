@@ -33,7 +33,8 @@
     "lokta-motion.css",
     "lokta-motion.js",
     "lokta-chart.js",
-    "lokta-kolam.js"
+    "lokta-kolam.js",
+    "lokta-recipe.js"
   ],
   "keywords": [
     "css",
