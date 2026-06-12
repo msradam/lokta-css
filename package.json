@@ -32,7 +32,8 @@
     "lokta-utilities.css",
     "lokta-motion.css",
     "lokta-motion.js",
-    "lokta-chart.js"
+    "lokta-chart.js",
+    "lokta-kolam.js"
   ],
   "keywords": [
     "css",
