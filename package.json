@@ -31,6 +31,7 @@
     "lokta-behaviors.d.ts",
     "lokta-utilities.css",
     "lokta-motion.css",
+    "lokta-motion.js",
     "lokta-chart.js"
   ],
   "keywords": [
